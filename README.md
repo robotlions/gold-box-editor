@@ -1,9 +1,20 @@
-# React + Vite
+# Curse of the Secret Pools!
+## Web-based editor for the Advanced Dungeons and Dragons Gold Box games.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Found live online at [goldbox.robotlions.com](https:/goldbox.robotlions.com).
 
-Currently, two official plugins are available:
+## To run locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# gold-box-editor
+If you haven't already, install [NodeJs](https://nodejs.org/en).
+
+Then copy this app's source code to your local machine either by cloning the repository or by copying the code directly.
+
+In your terminal of choice, navigate to this app's directory.
+
+To install all dependencies:
+
+*npm install*
+
+Once all dependencies are installed, run the app locally in a development environment with:
+
+*npm run dev*

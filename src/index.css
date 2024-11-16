@@ -1,0 +1,189 @@
+
+
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url(./assets/fonts/Geologica_Cursive-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "IM-Fell";
+  src: url(./assets/fonts/IMFellGreatPrimerSC-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url(./assets/fonts/Raleway-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Raleway-Black";
+  src: url(./assets/fonts/Raleway-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url(./assets/fonts/Raleway-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url(./assets/fonts/Raleway-SemiBold.ttf) format("truetype");
+}
+
+
+a {
+  text-decoration: none !important;
+}
+
+.accordion{
+  font-family: "Raleway-Medium", Arial, Helvetica, sans-serif;
+}
+
+.activeLink {
+  color: red;
+}
+
+body {
+  font-family: "Raleway-Medium", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Raleway-SemiBold", Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-weight: 300;
+  font-family: "Raleway-Medium", Arial, Helvetica, sans-serif;
+}
+
+strong{
+  font-family: "Raleway-Bold", Arial, Helvetica, sans-serif;
+}
+
+.coverImage {
+  box-shadow: 5px 2px 8px gray;
+}
+
+input.form-control {
+  font-size: 12px;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: #00aa00 !important;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #55fe55 !important;
+}
+
+select.form-select {
+  font-size: 12px;
+}
+
+.accordion-button:not(.collapsed) {
+background-color: #00AAAA !important;
+}
+
+
+.accordion-button::after {
+  transform: rotate(-90deg);
+}
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(0deg);
+}
+
+.card-header,
+.card-footer {
+  background-color: #00AAAA;
+}
+
+.charEditBody {
+  margin-bottom: 20vh;
+}
+
+.coverImage {
+  height: 400px;
+}
+
+a .coverImage:hover, .coverImageFaded:hover{
+  transform: scale(1.1)
+}
+
+.coverImageFaded {
+  height: 400px;
+  opacity: .2;
+}
+
+.downloadButton {
+  background-color: #00aa00;
+  color: white !important;
+}
+
+.downloadButton:hover {
+  background-color: #55fe55;
+}
+
+.duplicateButton {
+  background-color: #00AAAA;
+  color: white !important;
+}
+.duplicateButton:hover {
+  background-color: #55FFFF;
+}
+
+.editButton {
+  font-size: 10px;
+  max-width: 100px;
+}
+
+.form-control {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.headlineRow {
+  margin-bottom: 20px;
+}
+
+.inventoryItem {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.inventoryText {
+  font-size: 12px;
+}
+
+.linkText {
+  color: black;
+  font-size: large;
+  font-family: IM-Fell;
+}
+
+.mainTitle {
+  font-family: IM-Fell;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.nav-link{
+  font-family: "Raleway-Medium", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#navbrandTitle {
+  font-family: IM-Fell;
+  font-size: x-large;
+}
+
+.spellEntry {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+#fileSelect::file-selector-button {
+  background-color: #0d6efd;
+  color: white;
+}
+
+#inventoryFileSelect::file-selector-button {
+  background-color: #0d6efd;
+  color: white;
+}
