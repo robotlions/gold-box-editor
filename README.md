@@ -3,6 +3,8 @@
 
 Found live online at [goldbox.robotlions.com](https:/goldbox.robotlions.com).
 
+This is version 2, ported to Vite from the now-deprecated create-react-app.
+
 ## To run locally
 
 If you haven't already, install [NodeJs](https://nodejs.org/en).
